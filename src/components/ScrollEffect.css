@@ -1,0 +1,11 @@
+.scroll-effect {
+    margin: 20px auto;
+    font-size: 1.5em;
+    color: #ffcc00;
+    animation: scrollText 5s infinite alternate;
+}
+
+@keyframes scrollText {
+    0% { opacity: 0.3; transform: translateY(0px); }
+    100% { opacity: 1; transform: translateY(-10px); }
+}
